@@ -1,4 +1,18 @@
 AssOne::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/help"
+
+  get "pages/contact"
+
+  get "pages/about"
+
+  get "pages/specifications"
+
+  get "pages/references"
+
+  get "pages/resources"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
