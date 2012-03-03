@@ -10,7 +10,7 @@
   <div class="main_box">
     <%= render 'layouts/header' %>
     <%= render 'layouts/content' %>
-    <%= render 'layouts/footer' %>
   </div>
+
 </body>
 </html>

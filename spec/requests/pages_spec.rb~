@@ -28,15 +28,15 @@ describe 'Pages' do
   describe 'Contact Page' do
     before { visit contact_path }
 
-    it { should have_selector('h1', text: 'Contact Us') }
-    it { should have_selector('title', text: 'Contact') }
+    it { should have_selector('h1', text: 'Contact') }
+    it { should have_selector('title', text: 'Contact Us') }
   end
 
   describe 'References Page' do
     before { visit references_path }
 
-    it { should have_selector('h1', text: 'Assignment References') }
-    it { should have_selector('title', text: 'Assignment') }
+    it { should have_selector('h1', text: 'References') }
+    it { should have_selector('title', text: 'Assignment References') }
   end
 
   describe 'Report Page' do

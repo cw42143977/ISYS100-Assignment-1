@@ -6,7 +6,7 @@ AssOne::Application.routes.draw do
   match '/specs',       to: 'pages#specifications'
   match '/references',  to: 'pages#references'
   match '/about',       to: 'pages#about'
-  match '/report',      to: 'pages#report'
+  match '/resources',   to: 'pages#resources'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

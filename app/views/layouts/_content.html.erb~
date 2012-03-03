@@ -1,0 +1,13 @@
+<content class="round">
+  <div class="main_inner">
+    <div class="main_top">
+    </div>
+    <div class="main_left">
+      <%= yield %>
+      <h2>This is the left box</h2>
+    </div>
+    <div class="main_right">
+      <h2>This is the right box</h2>
+    </div>
+  </div>
+</content>

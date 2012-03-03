@@ -1,0 +1,94 @@
+$width: 960px;
+$width_inner: 920px;
+$body_col: #dab092;
+$main_col: #8f8f8f;
+
+body {
+  background: $body_col;
+}
+
+.main_box {
+  width: $width;
+  margin: 20px auto;
+  background: white;
+}
+
+header {
+  width: 100%;
+  img {
+    float: left;
+    background: $main_col;
+    padding: 1em;
+  }
+  nav {
+    float: right;
+    background: $main_col;
+    padding: 10px 5px;
+  }
+}
+
+content {
+  width: 100%;
+  float: left;
+  margin: 20px 0;
+  padding-bottom: 20px;
+  background: $main_col;
+  .main_inner {
+    width: $width_inner;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .main_left {
+    width: 70%;
+    float: left;
+    background: blue;
+    text-align: left;
+  }
+  .main_right {
+    width: 30%;
+    float: right;
+    background: red;
+  }
+}
+
+footer {
+  width: 100%;
+  float: left;
+  background: $main_col;
+  margin-bottom: 40px;
+  .footer_inner {
+    width: $width_inner;
+    margin: 0 auto;
+    padding: 10px 0;
+    nav {
+      text-align: center;
+    }
+  }
+}
+
+nav {
+  padding: 5px;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 0 0.5em;
+    }
+  }
+  a {
+    font-weight: bold;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+    &:visited {
+
+    }
+  }
+}
+
+.round {
+  border-radius: 10px;
+}

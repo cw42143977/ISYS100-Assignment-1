@@ -1,0 +1,12 @@
+<header>
+  <% logo = image_tag('gir_sitting.png', alt: 'ISYS100 Assignment One', size: '100x100', class: "round") %>
+  <%= link_to(logo, root_path) %>
+  <nav>
+    <ul>
+      <li><%= link_to('References', references_path) %></li>
+      <li><%= link_to('Specifications', specs_path) %></li>
+      <li><%= link_to('Report', report_path) %></li>
+      <li><%= link_to('Home', root_path) %></li>
+    </ul>
+  </nav>
+</header>

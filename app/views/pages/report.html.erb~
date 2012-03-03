@@ -1,3 +1,3 @@
 <% provide(:title, 'Report') %>
-<% provide(:heading, 'Written Report') %>
+<h1>Written Report</h1>
 <p>Find me in app/views/pages/resources.html.erb</p>
