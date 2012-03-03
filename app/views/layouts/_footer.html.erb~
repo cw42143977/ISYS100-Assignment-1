@@ -2,6 +2,7 @@
   <div class="footer_inner">
     <center>
       <%= javascript_tag 'showQuotation()' %>
+      <h4>-- Richard Feynman --</h4>
     </center>
     <nav>
       <ul>

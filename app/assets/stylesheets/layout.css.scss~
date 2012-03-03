@@ -22,6 +22,7 @@ header {
   }
   nav {
     float: right;
+    background: $main_col;
     padding: 10px 5px;
   }
 }
@@ -40,13 +41,11 @@ content {
   .main_left {
     width: 70%;
     float: left;
-    background: blue;
     text-align: left;
   }
   .main_right {
     width: 30%;
     float: right;
-    background: red;
   }
 }
 
@@ -57,11 +56,8 @@ footer {
   margin-bottom: 40px;
   .footer_inner {
     width: $width_inner;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 10px 0;
-    nav {
-      text-align: center;
-    }
   }
 }
 
