@@ -1,3 +1,4 @@
-<% provide(:title, 'Help') %>
-<h1>Help</h1>
+<% provide :title, 'Help'  %>
+<% provide :heading, 'Help' %>
+<%= image_tag 'http://i.imgur.com/VirPd.jpg', alt: 'Santorum is here to help' %>
 <p>Find me in app/views/pages/help.html.erb</p>

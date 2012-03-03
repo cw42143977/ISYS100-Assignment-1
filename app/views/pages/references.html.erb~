@@ -1,3 +1,12 @@
 <% provide(:title, 'References') %>
-<h1>Assignment References</h1>
-<p>Find me in app/views/pages/references.html.erb</p>
+<% provide(:heading, 'Assignment References') %>
+<nav>
+  <ul font-weight: 'normal'>
+    <h4>Images</h4>
+    <li>Gir image has been on my computer for ages but probably came from <a href="http://www.roomwithamoose.com">Room with a Moose</a></li>
+    <li>Citizen Kane clapping gif comes courtesy of <a href="http://www.funnyordie.com/lists/30868d6681/gif-guide-clapping">Funny or Die</a></li>
+    <h4>Javascript Widgets</h4>
+    <li>Twitter Widget comes courtesy of <a href="http://www.twitter.com">Twitter</a></li>
+    <li>The javascript quote widget came from <a href="http://www.codelifter.com/main/javascript/randomquote.shtml">Code Lifter</a> and the quotes came from <a href="http://en.wikipedia.org/wiki/Richard_Feynman">Richard Feynman</a>
+  </ul>
+</nav>

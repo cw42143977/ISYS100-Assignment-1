@@ -1,3 +1,24 @@
 <% provide(:title, 'Report') %>
-<h1>Written Report</h1>
-<p>Find me in app/views/pages/resources.html.erb</p>
+<% provide(:heading, 'Written Report') %>
+<ul>
+  <li><%= link_to 'Reason for Styling', anchor: 'reason' %></li>
+  <li><%= link_to 'Site Design with Better Tech Access', anchor: 'style' %></li>
+  <li><%= link_to 'Critique of an Admired Site', anchor: 'admire' %></li>
+</ul>
+<a name="reason"><h3>Reason for site styling</h3></a>
+<p>Website design plays a large part in the usability of particular site. Colour schemes, content placement, ease of access, all add up to how nice the user experience is.</p>
+<p>For this site the colour scheme has been specifically chosen to highlight the fact that a site that is clearly legible to most people could have some serious, unintended, drawbacks. This scheme in particular was chosen in part due to the fact that it can be harder for visually impaired people to see the content.</p>
+<p>Layout considerations for the site included the use of white-space to draw the users focus into the specific areas that we want them focused on without clutter to distract them. Boxes were used for the styling of the site to enable a nice clean look with some space between the various information fields. Conventional wisdom holds that a typical site visitor is in a rush to get the information they're looking for and don't want to be wasting time. Instant gratification is the keyword for the eGeneration.</p>
+<p>Placement of the links in the top right hand corner of the page has been deliberately done to aid with site navigation. The design here was to have a very easy to recognise system that is uniform across all the sites to enable users to have a very clear idea where site navigation links are and to not actually disrupt the exposure of the main content on the site.</p>
+<p>Sans-serif was chosen for the font as a serif text can be harder to read from computer devices due to the lower resolution than real life. Serif fonts in book format are awesome but don't necessarily translate well to the screen. The actual font itself (Times) was chosen due to its ubiquitous nature on a multitude of computer and browser platforms. Additional benefit is provided by the common nature of the font in that it is a familiar font for most people and quite plain, this helps to stop the user from noticing the font more and the content less.</p><br />
+<a name="sytle"><h3>Site Design with Better Tech Access</h3></a>
+<p>The idea of having unlimited technological access to design this site would probably have to start with the ability to <a href="http://bash.org/?4281">stab people over the internet.</a></p>
+<p>Site design with more advanced tech will very likely involve 3D interfaces, tactile feedback, increased utilisation of human senses to involve the user in a much more immersive experience. Something as simple as smelling a flower in a florist is a long way from seeing realisation on the internet.</p>
+<p>Personalisation is something much more grounded in reality at the moment and is a very big thing for most of the giants on the internet today. Companies such as Google rely on the information they are able to gather from people for their main business model. The cost / benefit of such information gleaning for personalisation is a hotly debated topic with a number of pros and cons.</p>
+<p>Another feature that is much more realisable with current tech is the ability for the site to be interactive. At present the ability for a site to be able to dynamically interact with a user is somewhat limited but as technology starts to advance (and data gleaned from users increases) this is also something that websites will hopefully be able to user to great effect.</p><br />
+<a name="admire"><h3>Critique of an Admired Site</h3></a>
+<p>Probably the site I admire most on the internet is a webcomic called <a href="http://www.xkcd.com">xkcd</a></p>
+<p>The site isn't a glorious monument to social media, it's not a 2.0 interactive extravaganza, it is quite plain by the internets standards. This, however, is the perfect way to allow the content of the site to shine.</p>
+<p>It has a nice clean layout with a very simple colour scheme. Bang in the middle of the screen, with the full focus of the user up access, is the webcomic. The artwork in its own right is also quite non-descript which only furthers to draw emphasis to the meat of the content in each comic.</p>
+<p>At a larger scale the site as a whole has information that a user could need nicely organised into very clearly displayed and easy to navigate parcels. In fact the site built for this assignment has borrowed quite heavily from the layout of xkcd.</p>
+<p>In brief; the clear, concise and carefully laid out nature of xkcd is why I admire it. </p>

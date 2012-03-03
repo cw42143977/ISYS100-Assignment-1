@@ -1,7 +1,20 @@
+/* Colour Palette for Site 
+$aoi: #69d2e7;
+$clean_pondwater: #a7dbd8;
+$beach_storm: #e0e4cc;
+$giant_goldfish: #f38630;
+$dark_fish: #c05300;
+$unreal_food_pills: #fa6900;
+$sydney_summer: #606600;
+*/
+
 $width: 960px;
 $width_inner: 920px;
-$body_col: #dab092;
-$main_col: #8f8f8f;
+$body_col: #606660;
+$main_col: #e0e4cc;
+$text_col: #303030;
+$link_col: #f38630;
+$link_visit_col: #c05300;
 
 body {
   background: $body_col;
@@ -10,7 +23,6 @@ body {
 .main_box {
   width: $width;
   margin: 20px auto;
-  background: white;
 }
 
 header {
@@ -37,15 +49,34 @@ content {
     width: $width_inner;
     margin: 0 auto;
     text-align: center;
+    h3 {
+      color: $text_col;
+      text-decoration: underline;
+    }
+    p {
+      text-align: left;
+      text-indent: 20px;
+      margin: 10px 20px;
+    }
   }
   .main_left {
     width: 70%;
     float: left;
-    text-align: left;
+    margin: 0 auto;
+    li {
+      text-indent: 20px;
+    }
+    .align_text {
+      text-align: left;
+    }
+    .highlight {
+      color: #0000ff;
+    }
   }
   .main_right {
     width: 30%;
     float: right;
+    margin: 0 auto;
   }
 }
 
@@ -73,17 +104,21 @@ nav {
       list-style-type: none;
       display: inline-block;
       padding: 0 0.5em;
+      a {
+        font-weight: bold;
+      }
     }
   }
-  a {
-    font-weight: bold;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
-    &:visited {
+}
 
-    }
+a {
+  text-decoration: none;
+  color: $link_col;
+  &:hover {
+    text-decoration: underline;
+  }
+  &:visited {
+    color: $link_visit_col;
   }
 }
 

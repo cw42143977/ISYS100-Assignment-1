@@ -2,10 +2,10 @@
   <div class="footer_inner">
     <center>
       <%= javascript_tag 'showQuotation()' %>
-      <h4>-- Richard Feynman --</h4>
     </center>
     <nav>
       <ul>
+        <li><%= link_to 'iLearn', href: 'http://ilearn.mq.edu.au/my/' %>
         <li><%= link_to 'About', about_path %></li>
         <li><%= link_to 'Contact', contact_path %></li>
         <li><%= link_to 'Help', help_path %></li>

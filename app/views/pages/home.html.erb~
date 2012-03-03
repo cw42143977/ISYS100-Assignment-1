@@ -1,2 +1,3 @@
 <% provide(:title, 'Home') %>
-<h1>Home Page</h1>
+<% provide(:heading, 'Home Page') %>
+<%= image_tag 'clapping.gif', alt: 'Congratulations! Assignment 1 is go.' %>

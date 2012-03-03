@@ -8,10 +8,7 @@
       <h2>This is the left box</h2>
     </div>
     <div class="main_right">
-      <center>
         <%= javascript_tag 'twitter()' %>
-        <%= javascript_tag 'showQuotation()' %>
-      </center>
     </div>
   </div>
 </content>
